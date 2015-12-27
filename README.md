@@ -1,2 +1,2 @@
-# dotfiles
+# Dotfiles
 For the Apocalypse.

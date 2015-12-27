@@ -1,0 +1,68 @@
+URxvt*urgentOnBell: True
+URxvt*font: xft:Source Code Pro:pixelsize=11
+URxvt*saveLines: 0
+URxvt*scrollBar: false
+
+URxvt*foreground: #eeeeeeeeecec
+URxvt*background: #101010101010
+URxvt*color0: #2e2e34343636
+URxvt*color1: #ffff00000000
+URxvt*color2: #4e4e9a9a0606
+URxvt*color3: #c4c4a0a00000
+URxvt*color4: #34346565a4a4
+URxvt*color5: #757550507b7b
+URxvt*color6: #060698989a9a
+URxvt*color7: #d3d3d7d7cfcf
+URxvt*color8: #555557575353
+URxvt*color9: #efef29292929
+URxvt*color10: #8a8ae2e23434
+URxvt*color11: #fcfce9e94f4f
+URxvt*color12: #72729f9fcfcf
+URxvt*color13: #adad7f7fa8a8
+URxvt*color14: #3434e2e2e2e2
+URxvt*color15: #eeeeeeeeecec
+URxvt*color16: #4c4c4c4c4c4c
+URxvt*color17: #a8a830303030
+URxvt*color18: #202088882020
+URxvt*color19: #a8a888880000
+URxvt*color20: #555555559898
+URxvt*color21: #888830308888
+URxvt*color22: #303088888888
+URxvt*color23: #d8d8d8d8d8d8
+
+URxvt*iso14755: false
+URxvt*iso14755_52: false
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  firefox
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+
+URxvt*keysym.M-u:           perl:url-select:select_next
+URxvt*urlLauncher:          firefox
+URxvt*underlineURLs:        true
+
+! Keyboard select
+URxvt*keysym.M-Escape:      perl:keyboard-select:activate
+
+! Clipboard
+URxvt*keysym.M-c:           perl:clipboard:copy
+URxvt*keysym.M-v:           perl:clipboard:paste
+URxvt*keysym.M-C-v:         perl:clipboard:paste_escaped
+
+! Rofi Application Launcher
+rofi.terminal:  urxvt
+rofi.lines:     15
+rofi.eh:        1
+rofi.width:     40
+rofi.padding:   5
+rofi.opacity:   95
+rofi.bw:        4
+rofi.bc:        #444444
+rofi.bg:        #010101
+rofi.fg:        #ededed
+rofi.hlbg:      #fafafa
+rofi.hlfg:      #010101
+rofi.font:      Source Code Pro 11
