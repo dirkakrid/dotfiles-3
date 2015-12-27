@@ -1,0 +1,38 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+xfdesktop &
+tint2 &
+thunar --daemon &
+#nitrogen --restore &
+#pcmanfm --desktop &
+#nm-applet &
+#xautolock -time 30 -locker "i3lock -c 000000" &
+dunst -config ~/.config/i3/dunstrc &
+setxkbmap -option terminate:ctrl_alt_bksp &
+redshift-gtk -l 54.35:18.65 -m randr -t 5500:4500 -g 0.75:0.75:0.75 &
+pnmixer &
+xcompmgr &
+#plank &
+cbatticon -i symbolic &
+#lxpolkit &
+emacs --daemon &
+#synapse &
+guake &
+xscreensaver -no-splash &
+
