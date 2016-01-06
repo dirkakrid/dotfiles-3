@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ingen/" . ".emacs.d/")
+ ("/home/" . "ingen/")
+ ("/home/ingen/.emacs.d/" . "config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ingen/.emacs.d/config/"
+ "/home/ingen/c++_stl/"
+ "/home/ingen/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "config-c++.el"
+ "test_vector.cpp"
+ "init.el"
+ "config-helm.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ingen/.emacs.d/" (22157 30657 248202 527000) "semanticdb/" "irony/" "ido.last" "auto-save-list/" "config/" "../" "init.el" "./" "init.el~" "elpa/")
+
+ ("/home/" (22055 26970 493109 33000) "ingen/" "../" "./")
+
+ ("/home/ingen/c++_stl/" (22157 8640 86589 324000) "test_vector.cpp" "GPATH" "GRTAGS" "../" "./" "GTAGS")
+
+ ("/home/ingen/.emacs.d/config/" (22157 27309 725005 696000) "config-completion.el" "config-cleanup.el" "config-c++.el" "config-theme_font.el" "config-display.el" "config-keybindings.el" "config-helm.el" "config-system.el" "../" "config-programming.el" "./" "config-ido.el")
+
+ ("/home/ingen/" (22157 30124 254890 928000) ".pdf-xchange/" ".bash_history" ".cache/" ".thumbnails/" ".themes/" ".lyrics/" ".bashrc" ".Templates/" ".links/" ".wine/" "grades/" ".tixati/" ".mozilla/" "prologue.rst" ".zsnes/" ".Public/" "python_crash_course.pdf" "wekafiles/" ".config/" ".minetest/" "FLR/" ".nvidia-settings-rc" "octave/" ".i3status.conf" ".esd_auth" "D-Wave's Quantum Computing.webm" ".calcurse/" "meb13023.pdf" ".bash_profile" "c++_stl/" ".dvdcss/" "Music/" ".VirtualBox VMs/" "iothings/" ".local/" ".links2/" ".gnome2_private/" ".icons/" ".xinitrc" ".gnome2/" ".kodi/" ".ipython/" ".macromedia/" "Videos/" ".ICEauthority" ".mednafen/" ".emacs.d/" ".tuxcmd/" ".pyrenamer/" ".gimp-2.8/" ".xscreensaver" "Documents/" "emacs_beta/" ".recoil/" "CRNResearch/" ".vimrc" ".octave_packages" ".adobe/" ".Xauthority" ".java/" ".gitconfig" ".gtkrc-2.0" ".ncmpcpp/" "Pictures/" "Downloads/" ".Xresources" "GATE/" ".bash_logout" "list.txt" ".gnupg/" ".xsel.log" ".gnome-commander/" "haltingproblem.txt" "Desktop/" ".moc/" ".Braid/" ".viminfo" ".nv/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
