@@ -1,68 +1,86 @@
-URxvt*urgentOnBell: True
-URxvt*font: xft:Source Code Pro:pixelsize=11
-URxvt*saveLines: 0
-URxvt*scrollBar: false
+! special
+*.foreground:   #42ff5d
+*.background:   #000000
+*.cursorColor:  #42ff5d
+! black
+*.color0:       #032c36
+*.color8:       #065f73
+! red
+*.color1:       #c2454e
+*.color9:       #ef5847
+! green
+*.color2:       #7cbf9e
+*.color10:      #a2d9b1
+! yellow
+*.color3:       #8a7a63
+*.color11:      #beb090
+! blue
+*.color4:       #2e3340
+*.color12:      #61778d
+! magenta
+*.color5:       #ff5879
+*.color13:      #ff99a1
+! cyan
+*.color6:       #44b5b1
+*.color14:      #9ed9d8
+! white
+*.color7:       #f2f1b9
+*.color15:      #f6f6c9
 
-URxvt*foreground: #eeeeeeeeecec
-URxvt*background: #101010101010
-URxvt*color0: #2e2e34343636
-URxvt*color1: #ffff00000000
-URxvt*color2: #4e4e9a9a0606
-URxvt*color3: #c4c4a0a00000
-URxvt*color4: #34346565a4a4
-URxvt*color5: #757550507b7b
-URxvt*color6: #060698989a9a
-URxvt*color7: #d3d3d7d7cfcf
-URxvt*color8: #555557575353
-URxvt*color9: #efef29292929
-URxvt*color10: #8a8ae2e23434
-URxvt*color11: #fcfce9e94f4f
-URxvt*color12: #72729f9fcfcf
-URxvt*color13: #adad7f7fa8a8
-URxvt*color14: #3434e2e2e2e2
-URxvt*color15: #eeeeeeeeecec
-URxvt*color16: #4c4c4c4c4c4c
-URxvt*color17: #a8a830303030
-URxvt*color18: #202088882020
-URxvt*color19: #a8a888880000
-URxvt*color20: #555555559898
-URxvt*color21: #888830308888
-URxvt*color22: #303088888888
-URxvt*color23: #d8d8d8d8d8d8
 
-URxvt*iso14755: false
-URxvt*iso14755_52: false
+! Urxvt Terminal
+URxvt*urgentOnBell:           True
+URxvt*font:                   xft:Terminus:Regular:pixelsize=12
+URxvt*boldFont:               xft:Terminus:Bold:pixelsize=12
+URxvt*italicFont:             xft:Terminus:Italic:size=14
+URxvt*boldItalicFont:         xft:Terminus:Bold:Italic:size=14
+URxvt*lineSpace:              2
+URxvt.saveLines:              12000
+URxvt.scrollstyle:            plain
+URxvt.pointerBlank:           true
+URxvt.cutchars:               '`"&()*,;<=>?@[]^{|}:~'
+URxvt*scrollBar:              false
+URxvt*loginShell:             true
+URxvt.internalBorder:         15
+URxvt*buffered: 	      true
+URxvt*scrollTtyOutput:        false
+URxvt*scrollWithBuffer:       true
+URxvt*scrollTtyKeypress:      true
+!URxvt.letterSpace:            -2
+URxvt.matcher.button:         1
+URxvt.clipboard.autocopy:     true
+URxvt*iso14755:               false
+URxvt*iso14755_52:            false
+URxvt.secondaryScreen:        1
+URxvt.secondaryScroll:        0
+URxvt.perl-ext-common:        default,clipboard,url-select,vtwheel,resize-font,keyboard-select
+URxvt.url-select.launcher:    firefox
+URxvt.url-select.underline:   true
+URxvt.keysym.M-u:             perl:url-select:select_next
+URxvt.keysym.M-Escape:        perl:keyboard-select:activate
+URxvt.keysym.M-s:             perl:keyboard-select:search
+URxvt*keysym.M-u:             perl:url-select:select_next
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.resize-font.smaller:    C-Down
+URxvt.resize-font.bigger:     C-Up
+URxvt*urlLauncher:            firefox
+URxvt*underlineURLs:          true
+URxvt*iconFile:               /usr/share/icons/UltraFlatIcons/apps/scalable/xterm-color.svg
 
-URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
-URxvt.url-select.launcher:  firefox
-URxvt.url-select.underline: true
-URxvt.keysym.M-u:           perl:url-select:select_next
-URxvt.keysym.M-Escape:      perl:keyboard-select:activate
-URxvt.keysym.M-s:           perl:keyboard-select:search
-
-URxvt*keysym.M-u:           perl:url-select:select_next
-URxvt*urlLauncher:          firefox
-URxvt*underlineURLs:        true
-
-! Keyboard select
-URxvt*keysym.M-Escape:      perl:keyboard-select:activate
-
-! Clipboard
-URxvt*keysym.M-c:           perl:clipboard:copy
-URxvt*keysym.M-v:           perl:clipboard:paste
-URxvt*keysym.M-C-v:         perl:clipboard:paste_escaped
 
 ! Rofi Application Launcher
-rofi.terminal:  urxvt
-rofi.lines:     15
-rofi.eh:        1
-rofi.width:     40
-rofi.padding:   5
-rofi.opacity:   95
-rofi.bw:        4
-rofi.bc:        #444444
-rofi.bg:        #010101
-rofi.fg:        #ededed
-rofi.hlbg:      #fafafa
-rofi.hlfg:      #010101
-rofi.font:      Source Code Pro 11
+rofi.width:                 50
+rofi.lines:                 15
+rofi.columns:               1
+rofi.color-enabled:         true
+rofi.color-normal:          #282828,#ebdbb2,#353535,#458588,#ebdbb2
+rofi.color-urgent:          #282828,#d79921,#353535,#d79921,#282828
+rofi.color-active:          #282828,#ebdbb2,#353535,#458588,#ebdbb2
+rofi.color-window:          #282828,#458488
+rofi.font:                  Monaco 11
+rofi.terminal:              urxvt
+rofi.levenshtein-sort:      true
+rofi.fuzzy:                 true
+rofi.kb-cancel:             Escape,Control+c
+
